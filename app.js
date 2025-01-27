@@ -33,3 +33,15 @@ function mostrarAmigos(){
         }
         }
 }
+// boton sortear amigo
+function sortearAmigo(){
+    if(amigos.length>0){
+        let numeroGenerado =  Math.floor(Math.random()*amigos.length);
+        let lista = document.getElementById("listaAmigos");
+        lista.innerHTML = "";
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = "El amigo secreto sorteado es: "+ amigos[numeroGenerado];
+    }
+
+    
+}
