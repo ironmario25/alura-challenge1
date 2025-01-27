@@ -14,7 +14,7 @@ Este es un proyecto llamado **Amigo Imaginario**, desarrollado como parte del cu
 
 ## Enlace al proyecto
 Puedes ver la aplicación en vivo en el siguiente enlace:  
-[Amigo Imaginario en vivo](https://ironmario25.github.io/alura-challenge1/)
+[Link:Amigo Imaginario](https://ironmario25.github.io/alura-challenge1/)
 
 ## Instalación
 1. Clona el repositorio en tu máquina local:
