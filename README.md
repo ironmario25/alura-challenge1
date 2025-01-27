@@ -19,5 +19,5 @@ Puedes ver la aplicación en vivo en el siguiente enlace:
 ## Instalación
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu_usuario/amigo-imaginario.git
+   git clone https://github.com/ironmario25/alura-challenge1.git
 
