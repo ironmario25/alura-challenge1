@@ -16,5 +16,20 @@ function agregarAmigo(){
     agregarNombre(nombre);
     // limpiar campo
     document.getElementById("amigo").value = "";
-  //  mostrarAmigos();
+    mostrarAmigos();
+}
+// muestra y actualiza la lista de amigos en el html
+function mostrarAmigos(){
+    let lista = document.getElementById("listaAmigos")
+    let resultado = document.getElementById("resultado");
+    if(amigos.length>0){
+        lista.innerHTML = "";
+        resultado.innerHTML = "";
+        for (let index = 0; index < amigos.length; index++) {
+            const element = amigos[index];
+            let li = document.createElement("li");
+            li.textContent = element;
+            lista.appendChild(li);
+        }
+        }
 }
